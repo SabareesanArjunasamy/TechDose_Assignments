@@ -12,3 +12,4 @@ class MedianofTwoSortedArrays {
             return (res[n>>1] + res[(n>>1) - 1]) / 2.0;
         }        
     }
+}
