@@ -1,6 +1,6 @@
 import java.util.*;
-class Main {
-	static void countSort(int[] arr)
+class Counting {
+	static void Counting(int[] arr)
 	{
 		int max = Arrays.stream(arr).max().getAsInt();
 		int min = Arrays.stream(arr).min().getAsInt();
@@ -31,7 +31,7 @@ class Main {
 	public static void main(String[] args)
 	{
 		int[] arr = { -5, -10, 0, -3, 8, 5, -1, 10 };
-		countSort(arr);
+		Counting(arr);
 		printArray(arr);
 	}
 }
