@@ -1,7 +1,7 @@
-### TechDose_Assignments
+# TechDose_Assignments
 
 ## Topics Covered
 
-# Time Complexity Analysis
-# Bit Manipulation
-# Arrays
+### Time Complexity Analysis
+### Bit Manipulation
+### Arrays
