@@ -10,19 +10,18 @@ void siveoferatosthnes(int num)
 	{ 
 		if (prime[p] == true) 
 		{ 
-			for (int i=p*p; i<=n; i += p) 
+			for (int i=p*p; i<=num; i += p) 
 				prime[i] = false; 
 		} 
 	} 
-	for (int j=2; j<=n; j++) 
+	for (int j=2; j<=num; j++) 
 	if (prime[j]) 
 		cout << j << " "; 
 } 
 
 int main() 
 { 
-	int n;
-    cin>>n;
-	SieveOfEratosthenes(n); 
+	int n=20;
+	siveoferatosthnes(n); 
 	return 0; 
 }
